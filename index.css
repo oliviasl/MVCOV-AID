@@ -1,0 +1,65 @@
+/* red: #ff4d40 */
+/* teal: #00b4c4 */
+/* gray: #ededed */
+
+.navbar {
+    min-height: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* volunteer.html css */
+.volunteerHead {
+    padding: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: #ff4d40;
+    text-align: center;
+}
+
+.volunteerHead > h1 {
+    font-size: 80px;
+}
+
+hr.solid {
+  border-top: 1px solid #bdbdbd;
+  width: 500px;
+}
+
+.tutordiv {
+    background-color: #ededed;
+    padding: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tutordiv > h1 {
+    font-size: 60px;
+    color: #00b4c4;
+    text-align: center;
+}
+
+.tutordiv > h6 {
+    color: #00b4c4;
+    text-align: center;
+}
+
+.atriskdiv {
+    padding: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.atriskdiv > h1 {
+    font-size: 60px;
+    color: #ff4d40;
+    text-align: center;
+}
+
+.atriskdiv > h6 {
+    color: #ff4d40;
+    text-align: center;
+}
