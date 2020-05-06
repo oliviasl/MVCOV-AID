@@ -10,7 +10,7 @@ function scrollFunction() {
   }
 }
 
-window.onload = function(){ 
+window.onload = function(){
     this.setTimeout(removeLoader, 1000);
 }
 
