@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -31,7 +31,7 @@
     padding: 14px 35px;
     color: black;
     font-size: 19px;
-    transition: all 0.4s ease;
+    transition: all 0.8s ease;
     border-radius: 10px;
 }
 
@@ -43,7 +43,8 @@
 
 .item:hover {
     font-size: 20px;
-    font-weight: bolder;
+    background: rgb(168, 144, 144);
+    color: white;
 }
 
 .item:last-child {
