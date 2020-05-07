@@ -31,7 +31,7 @@
     padding: 14px 35px;
     color: black;
     font-size: 19px;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
     border-radius: 10px;
 }
 
@@ -133,4 +133,12 @@ section .main h1 {
     padding-left: 15px;
     margin-right: auto;
     transition: 1s;
+}
+
+#mission {
+    background-color: white;
+}
+
+#about {
+    background-color: rgba(224, 212, 212, 0.699);
 }
