@@ -11,69 +11,112 @@
         <link rel="stylesheet" href="volunteer.css">
         <link rel="shortcut icon" type="image/x-icon" href="iconname" />
 
-        <title>Volunteer</title>
+        <title>MVHS COVID Helpers - Volunteer</title>
     </head>
     <body>
 
 
         <!-- navigation bar -->
         <div id = "nav-volunteer" class="nav-volunteer">
-            <a id = "header">COVID Helpers</a>
+            <a id = "header">MVHS COVID Helpers</a>
             <ul>
                 <a href = "index.html" class = "item"><li>Home</li></a>
                 <li class="dropdown item active">
-                   <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Volunteering
+                   <a class="dropdown-toggle" href="volunteer.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Volunteer
                    </a>
                    <div class="dropdown-menu">
-                     <a class="dropdown-item" href="#tutoring">Tutoring</a>
-                     <a class="dropdown-item" href="#atrisk">Help At Risk</a>
-                     <a class="dropdown-item" href="#">Uplifting</a>
+                     <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="volunteer.html#tutoring">Tutoring</a>
+                     <a class="dropdown-item" href="volunteer.html#atrisk">Help At Risk</a>
+                     <a class="dropdown-item" href="volunteer.html#wellness">Wellness</a>
                    </div>
                  </li>
-                <a href = "" class = "item"><li>Donating</li></a>
+                 <li class="dropdown item">
+                    <a class="dropdown-toggle" href="donate.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Donate
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="donate.html">Donate</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="donate.html#hospitals">Hospitals</a>
+                      <a class="dropdown-item" href="donate.html#nonprofits">Nonprofits</a>
+                    </div>
+                  </li>
                 <a href = "" class = "item"><li>Contact</li></a>
             </ul>
         </div>
 
 
         <!-- volunteer head -->
-        <div class="volunteerHead">
-            <h1>Volunteer</h1>
+        <div class="pageHeadVolunteer headingImg">
+            <h1 class="pageHeadTitle">Volunteer</h1>
             <hr class="solid">
             <br>
-            <h6>Looking to help? Seeking aid? Here are the resources for you!</h6>
+            <h6>Looking to help? Here are the opportunities for you!</h6>
         </div>
 
 
         <!-- tutoring -->
-        <div class="tutordiv" id="tutoring">
+        <div class="div1" id="tutoring">
             <!-- heading -->
             <h1>Tutoring</h1>
-            <h6>From student-run programs to professional services</h6>
+            <h6>Student-run programs and professional services</h6>
             <br>
             <hr class="solid">
             <br>
             <br>
 
             <!-- content -->
+            <!-- Student2Student -->
             <div class="row">
                 <div class="col-lg-8 col-sm-12">
                     <h5>Student2Student</h5>
                     <p>
-                        A Mountain View High School tutoring service run by MVHS students.
-                        Works in collaboration with the school's Tutorial Center.
+                        Student2Student is a free online tutoring service created
+                        by MVHS students for MVHS students that seeks to help peers
+                        and support teachers. Even more so, it is a collaborative modality
+                        that helps us stay connected, engaged, and feel supported by our MVHS community.
+                    </p>
+                    <br>
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Contact</h5>
+                    <p>Email: 100023372@mvla.net</p>
+                    <a href="Assets/Student2StudentFlyer.pdf" target="_blank">Program Flyer</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Inara Middle School Mentoring -->
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <h5>Inara Middle School Mentoring</h5>
+                    <p>
+                        Inara is an organization dedicated to keeping middle school
+                        students engaged and motivated during quarantine as well as
+                        providing guidance through the transition from middle to high school.
+                        Currently recruiting motivated high school volunteers to serve
+                        as mentors for middle school students in the area. As
+                        Student Mentors, selected volunteers will have the opportunity
+                        to share their experience with younger students, earn volunteer hours,
+                        and develop interpersonal skills.
                     </p>
                 </div>
                 <div class="col-lg-4 col-sm-12">
-                    <iframe src="Assets/Student2StudentFlyer.pdf" width="100%" height="300"></iframe>
+                    <h5>Contact</h5>
+                    <p>Email: outreach.inara@gmail.com</p>
                 </div>
             </div>
+            <br>
+            <br>
         </div>
 
 
         <!-- at risk -->
-        <div class="atriskdiv" id="atrisk">
+        <div class="div2" id="atrisk">
             <!-- heading -->
             <h1>Help At Risk</h1>
             <h6>Help with grocery runs, deliveries, etc.</h6>
@@ -81,7 +124,116 @@
             <hr class="solid">
             <br>
             <br>
+
+            <!-- content -->
+            <!-- MV Helps -->
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <h5>MV Helps</h5>
+                    <p>
+                        A program run by Mountain View residents for helping other
+                        at risk residents or healthcare professionals. Volunteering includes
+                        grocery runs, deliveries, and other related services. Seeking low risk,
+                        healthy individuals without immunocompromised family.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Contact</h5>
+                    <p>Email: mvhelpscommunity@gmail.com</p>
+                    <p>Phone: 650-382-2677</p>
+                    <a href="https://www.mvhelps.org/" target="_blank">Website</a> and <a href="https://www.mvhelps.org/faqs" target="_blank">FAQ Page</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Red Cross Blood Donation -->
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <h5>Red Cross Blood Donation</h5>
+                    <p>
+                        In coordination with the U.S. Food and Drug Administration (FDA),
+                        the Red Cross is seeking people who are fully recovered from the
+                        new coronavirus to sign up to donate plasma to help current COVID-19 patients.
+                        Patients who have fully recovered following a COVID-19 diagnosis may have
+                        antibodies in their plasma that can help those with serious or immediately
+                        life-threatening COVID-19 infections.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Contact</h5>
+                    <a href="https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html" target="_blank">Website</a>
+                    <br>
+                    <br>
+                    <a href="https://www.redcrossblood.org/faq.html#eligibility" target="_blank">Blood Donation FAQ</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- Santa Clara County Health Care Services -->
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <h5>Santa Clara County Health Care Services</h5>
+                    <p>
+                        Currently in significant need for volunteers of all types to
+                        support staff in health care settings. This includes both people with
+                        direct patient care experience, as well as those with experience in
+                        administration and management, office specialties, logistics,
+                        environmental services/housekeeping/janitorial services, food service,
+                        pharmacy, lab work, social work, case management, information technology,
+                        nutrition and more.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Contact</h5>
+                    <a href="https://www.sccgov.org/sites/covid19/Pages/i-can-help.aspx" target="_blank">Website</a>
+                </div>
+            </div>
+            <br>
+            <br>
         </div>
+
+
+        <!-- wellness -->
+        <div class="div1" id="wellness">
+            <!-- heading -->
+            <h1>Wellness</h1>
+            <h6>Keep community spirits lifted!</h6>
+            <br>
+            <hr class="solid">
+            <br>
+            <br>
+
+            <!-- content -->
+            <!-- Engaging with the Elders -->
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <h5>Engaging with the Elders</h5>
+                    <p>
+                        Looking for talented volunteers willing to record some aspect
+                        of their talent (singing, poetry, dancing, etc.) to share
+                        online with the elderly. As a result of the Covid 19 pandemic many
+                        elders in nursing homes and care facilities are feeling increasingly isolated.
+                        The aim is to help combat the loneliness of our elders.
+                    </p>
+                    <br>
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <h5>Contact</h5>
+                    <p>Email: engagingelders@gmail.com</p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+
+
+        <!-- footer -->
+        <hr>
+        <footer>
+            <p>© MVHS COVID Helpers 2020</p>
+            <p>Brought to you by MVHS Girls Who Code Club</p>
+        </footer>
 
 
         <!-- scripts - jQuery first, then Popper.js, then Bootstrap JS-->
