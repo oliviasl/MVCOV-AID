@@ -168,4 +168,18 @@ hr.solid {
     border-top: 1px solid #bdbdbd;
     width: 50em;
     margin: auto;
-  }
+}
+
+hr {
+    border-top: 0.1px solid #e4e4e4;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    padding: 47px;
+}
+
+footer p {
+    font-size: 10px;
+}
