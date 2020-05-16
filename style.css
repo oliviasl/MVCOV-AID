@@ -107,11 +107,11 @@ section .main h1 {
     z-index: 0;
     margin: auto;
     text-align: justify;
-    max-width: 80%;
+    max-width: 60%;
 }
 
 .main p {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 #loading {
@@ -148,25 +148,9 @@ section .main h1 {
     color: #ff4d40;
 }
 
-#mission {
-    background-color: #ededed;
-}
-
-#mission h1 {
-    color: #009dab;
-}
-
-#about {
-    background-color: white;
-}
-
-#about h1 {
-    color: #ff4d40;
-}
-
 hr.solid {
     border-top: 1px solid #bdbdbd;
-    width: 50em;
+    width: 70%;
     margin: auto;
 }
 
