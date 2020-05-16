@@ -94,8 +94,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
+
 
 section .main h1 {
     font-size: 50px;
@@ -142,6 +142,7 @@ section .main h1 {
 
 #whatwedo {
     background-color: white;
+    height: 100vh;
 }
 
 #whatwedo h1 {
@@ -166,4 +167,13 @@ footer {
 
 footer p {
     font-size: 10px;
+}
+
+.map {
+    margin: auto;
+    text-align: center;
+}
+
+#mapsection h1 {
+    color: #009dab;
 }
