@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 50px;
@@ -81,7 +81,7 @@ html {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 15px;
