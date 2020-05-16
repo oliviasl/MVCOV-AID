@@ -184,3 +184,34 @@ footer > p {
     height: 40px;
     margin-right: 10px;
 }
+
+.bg-light {
+    background-color: #ffc5c5!important;
+}
+
+.active {
+    background: rgb(255, 102, 102);
+    padding: 8px;
+    font-weight: lighter;
+    border-radius: 10px;
+    color: white;
+}
+
+.nonactive {
+    padding: 8px;
+    font-weight: lighter;
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 50px!important;
+}
+
+nav {
+    font-size: 20px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
