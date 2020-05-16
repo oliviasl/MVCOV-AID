@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 600px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 50px;
@@ -57,9 +57,31 @@ html {
     .navbar-brand {
         font-size: 40px!important;
     }
+
+    hr.solid {
+      border-top: 1px solid #bdbdbd;
+      width: 500px;
+      margin: auto;
+    }
+
+    .pageHeadTitle {
+        font-size: 80px;
+    }
+
+    .div1 > h1 {
+        font-size: 60px;
+        color: #ff4d40;
+        text-align: center;
+    }
+
+    .div2 > h1 {
+        font-size: 60px;
+        color: #009dab;
+        text-align: center;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 15px;
@@ -109,6 +131,28 @@ html {
     .navbar-brand {
         font-size: 25px!important;
     }
+
+    hr.solid {
+      border-top: 1px solid #bdbdbd;
+      width: 300px;
+      margin: auto;
+    }
+
+    .pageHeadTitle {
+        font-size: 50px;
+    }
+
+    .div1 > h1 {
+        font-size: 40px;
+        color: #ff4d40;
+        text-align: center;
+    }
+
+    .div2 > h1 {
+        font-size: 40px;
+        color: #009dab;
+        text-align: center;
+    }
 }
 
 .pageHeadVolunteer::after {
@@ -151,34 +195,11 @@ html {
 }
 
 
-.pageHeadTitle {
-    font-size: 80px;
-}
-
-hr.solid {
-  border-top: 1px solid #bdbdbd;
-  width: 500px;
-  margin: auto;
-}
-
-
-.div1 > h1 {
-    font-size: 60px;
-    color: #ff4d40;
-    text-align: center;
-}
-
 .div1 > h6 {
     color: #ff4d40;
     text-align: center;
 }
 
-
-.div2 > h1 {
-    font-size: 60px;
-    color: #009dab;
-    text-align: center;
-}
 
 .div2 > h6 {
     color: #009dab;
