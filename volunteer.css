@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 50px;
@@ -39,10 +39,27 @@ html {
         text-align: center;
         display: block;
         position: relative;
+    }
+
+    .div1 {
+        padding: 150px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .div2 {
+        background-color: #ededed;
+        padding: 150px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .navbar-brand {
+        font-size: 40px!important;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 15px;
@@ -74,6 +91,23 @@ html {
         text-align: center;
         display: block;
         position: relative;
+    }
+
+    .div1 {
+        padding: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .div2 {
+        background-color: #ededed;
+        padding: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .navbar-brand {
+        font-size: 25px!important;
     }
 }
 
@@ -121,43 +155,10 @@ html {
     font-size: 80px;
 }
 
-
-
 hr.solid {
   border-top: 1px solid #bdbdbd;
   width: 500px;
   margin: auto;
-}
-
-@media (min-width: 500px) {
-    .div1 {
-        padding: 150px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .div2 {
-        background-color: #ededed;
-        padding: 150px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-}
-
-
-@media (max-width: 500px) {
-    .div1 {
-        padding: 15px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .div2 {
-        background-color: #ededed;
-        padding: 15px;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
 }
 
 
@@ -259,10 +260,6 @@ footer > p {
     padding: 8px;
     font-weight: lighter;
     color: black;
-}
-
-.navbar-brand {
-    font-size: 40px!important;
 }
 
 nav {
