@@ -10,16 +10,48 @@
     <body>
         <!-- loading -->
 
-        <!-- navigation bar -->
-        <div id = "nav" class = "nav">
-            <a id = "header">MV COV-AID</a>
-            <ul>
-                <a href = "index.html" class = "item active"><li>Home</li></a>
-                <a href = "volunteer.html" class = "item"><li>Volunteering</li></a>
-                <a href = "donate.html" class = "item"><li>Donating</li></a>
-                <a href = "contact.html" class = "item"><li>Contact</li></a>
-            </ul>
-        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">MV COV-AID</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown nonactive">
+                    <a class="nav-link dropdown-toggle" href="donation.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Volunteer
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="volunteer.html#tutoring">Tutoring</a>
+                      <a class="dropdown-item" href="volunteer.html#atrisk">Help At Risk</a>
+                      <a class="dropdown-item" href="volunteer.html#wellness">Wellness</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown nonactive">
+                    <a class="nav-link dropdown-toggle" href="donate.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Donate
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="donate.html">Donate</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="donate.html#hospitals">Medical Foundations</a>
+                      <a class="dropdown-item" href="donate.html#nonprofits">Nonprofits</a>
+                    </div>
+                  </li>
+                  <li class="nav-item nonactive">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+
+
         <!-- main content -->
         <div class = "section">
             <img src = "sj.jpg">
@@ -50,7 +82,7 @@
         </section>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="script.js"></script>
-        
+
     </body>
     <div id = "loading">
         <img id="loadingimage" src="loading.gif" alt="Loading..." />
