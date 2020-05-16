@@ -148,22 +148,6 @@ section .main h1 {
     color: #ff4d40;
 }
 
-#mission {
-    background-color: #ededed;
-}
-
-#mission h1 {
-    color: #009dab;
-}
-
-#about {
-    background-color: white;
-}
-
-#about h1 {
-    color: #ff4d40;
-}
-
 hr.solid {
     border-top: 1px solid #bdbdbd;
     width: 50em;
