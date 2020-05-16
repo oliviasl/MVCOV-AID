@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 700px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 50px;
@@ -81,7 +81,7 @@ html {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .pageHeadVolunteer {
         z-index: 0;
         padding: 15px;
@@ -116,14 +116,14 @@ html {
     }
 
     .div1 {
-        padding: 15px;
+        padding: 20px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
     .div2 {
         background-color: #ededed;
-        padding: 15px;
+        padding: 20px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
