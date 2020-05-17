@@ -87,7 +87,7 @@ html,body {
     font-size: 60px;
     font-weight: bolder;
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -114,9 +114,18 @@ section .main h1 {
     max-width: 60%;
 }
 
-.main p {
-    font-size: 24px;
+@media (min-width: 700px){
+    .main p {
+        font-size: 24px;
+    }
 }
+
+@media (max-width: 700px){
+    .main p {
+        font-size: 18px;
+    }
+}
+
 
 #loading {
     position: fixed;
@@ -147,15 +156,16 @@ section .main h1 {
 #whatwedo {
     background-color: white;
     height: 100vh;
+    padding-top: 30vh;
 }
 
 #whatwedo h1 {
     color: #ff4d40;
 }
 
-hr.solid {
+hr.solider {
     border-top: 1px solid #bdbdbd;
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -187,4 +197,3 @@ footer p {
     text-align: center;
     height: 200%;
 }
-

@@ -89,6 +89,9 @@ html {
     }
 }
 
+
+
+
 @media (max-width: 700px) {
     .div1 {
         padding: 20px;
@@ -273,4 +276,8 @@ nav {
 .nav-item {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+hr {
+    border-top: 1px solid #b8b8b8;
 }
