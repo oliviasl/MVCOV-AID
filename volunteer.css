@@ -145,7 +145,7 @@ html {
     .titleAlt {
         font-size: 60px;
         position: absolute;
-        top: 40%;
+        top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -156,18 +156,7 @@ html {
     .sectionAlt > h6 {
         font-size: 16px;
         position: absolute;
-        top: 53%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #009dab;
-        margin-top: 10px;
-    }
-
-    #sectionContact {
-        font-size: 16px;
-        position: absolute;
-        top: 56%;
+        top: 57%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
