@@ -75,9 +75,9 @@ html {
     }
 
     .sectionAlt > h6 {
-        font-size: 16px;
+        font-size: 22px;
         position: absolute;
-        top: 62%;
+        top: 65%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
