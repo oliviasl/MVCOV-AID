@@ -129,7 +129,7 @@ section {
 
     #whatwedo {
         background-color: white;
-        height: 700px;
+        height: 750px;
         padding-top: 200px;
     }
 
@@ -149,7 +149,7 @@ section {
 
 @media (max-width: 700px){
     .main p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .mapheader {
@@ -183,7 +183,7 @@ section {
 
     #whatwedo {
         background-color: white;
-        height: 600px;
+        height: 500px;
         padding-top: 100px;
     }
 
