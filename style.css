@@ -6,6 +6,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+html,body {
+    height: 100%;
+}
+
 .nav {
     z-index: 1;
     transition: 0.3s;
@@ -169,11 +173,18 @@ footer p {
     font-size: 10px;
 }
 
-.map {
+.mapheader {
     margin: auto;
-    text-align: center;
 }
 
-#mapsection h1 {
+.mapheader h1 {
+    font-size: 50px;
+    text-align: center;
     color: #009dab;
 }
+
+.map {
+    text-align: center;
+    height: 200%;
+}
+
