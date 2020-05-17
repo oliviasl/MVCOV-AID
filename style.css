@@ -92,13 +92,6 @@ section {
 
 
 
-.main {
-    z-index: 0;
-    margin: auto;
-    text-align: justify;
-    max-width: 60%;
-}
-
 @media (min-width: 700px){
     .main p {
         font-size: 24px;
@@ -138,6 +131,19 @@ section {
         background-color: white;
         height: 700px;
         padding-top: 200px;
+    }
+
+    .main {
+        z-index: 0;
+        margin: auto;
+        text-align: justify;
+        max-width: 60%;
+    }
+
+    hr.solider {
+        border-top: 1px solid #bdbdbd;
+        width: 60%;
+        margin: auto;
     }
 }
 
@@ -180,6 +186,19 @@ section {
         height: 600px;
         padding-top: 100px;
     }
+
+    .main {
+        z-index: 0;
+        margin: auto;
+        text-align: justify;
+        max-width: 80%;
+    }
+
+    hr.solider {
+        border-top: 1px solid #bdbdbd;
+        width: 80%;
+        margin: auto;
+    }
 }
 
 
@@ -211,12 +230,6 @@ section {
 
 #whatwedo h1 {
     color: #ff4d40;
-}
-
-hr.solider {
-    border-top: 1px solid #bdbdbd;
-    width: 60%;
-    margin: auto;
 }
 
 hr {
