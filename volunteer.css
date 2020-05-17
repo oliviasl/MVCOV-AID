@@ -150,6 +150,7 @@ html {
         transform: translate(-50%, -50%);
         text-align: center;
         color: #009dab;
+        margin-bottom: 10px;
     }
 
     .sectionAlt > h6 {
@@ -160,6 +161,7 @@ html {
         transform: translate(-50%, -50%);
         text-align: center;
         color: #009dab;
+        margin-top: 10px;
     }
 
     #sectionContact {
