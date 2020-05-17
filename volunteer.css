@@ -206,6 +206,10 @@ html {
     text-align: center;
 }
 
+.div1 > h3 {
+    color: #ff4d40;
+}
+
 /* for nav bar to work with bootstrap */
 .item:hover > a {
     color: white;
