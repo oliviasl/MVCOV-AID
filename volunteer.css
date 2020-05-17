@@ -8,39 +8,6 @@ html {
 }
 
 @media (min-width: 700px) {
-    .pageHeadVolunteer {
-        z-index: 0;
-        padding: 50px;
-        padding-top: 195px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
-    .pageHeadDonate {
-        z-index: 0;
-        padding: 50px;
-        padding-top: 195px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
-    .pageHeadContact {
-        z-index: 0;
-        padding: 50px;
-        padding-top: 195px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
     .div1 {
         padding: 150px;
         padding-top: 60px;
@@ -59,9 +26,14 @@ html {
     }
 
     hr.solid {
-      border-top: 1px solid #bdbdbd;
+      border-top: 1px solid #737373;
       width: 500px;
       margin: auto;
+      position: absolute;
+      top: 57%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
 
     .pageHeadTitle {
@@ -79,42 +51,41 @@ html {
         color: #009dab;
         text-align: center;
     }
+
+    .sectionAlt {
+        z-index: 0;
+        height: 100vh;
+    }
+
+    .sectionAlt > img {
+        width: 100%;
+        height: 100vh;
+        opacity: 0.3;
+        position: relative;
+    }
+
+    .titleAlt {
+        font-size: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #009dab;
+    }
+
+    .sectionAlt > h6 {
+        font-size: 16px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #009dab;
+    }
 }
 
 @media (max-width: 700px) {
-    .pageHeadVolunteer {
-        z-index: 0;
-        padding: 15px;
-        padding-top: 150px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
-    .pageHeadDonate {
-        z-index: 0;
-        padding: 15px;
-        padding-top: 150px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
-    .pageHeadContact {
-        z-index: 0;
-        padding: 15px;
-        padding-top: 150px;
-        padding-bottom: 150px;
-        color: #009dab;
-        text-align: center;
-        display: block;
-        position: relative;
-    }
-
     .div1 {
         padding: 20px;
         padding-top: 60px;
@@ -133,9 +104,14 @@ html {
     }
 
     hr.solid {
-      border-top: 1px solid #bdbdbd;
+      border-top: 1px solid #737373;
       width: 300px;
       margin: auto;
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
     }
 
     .pageHeadTitle {
@@ -153,45 +129,38 @@ html {
         color: #009dab;
         text-align: center;
     }
-}
 
-.pageHeadVolunteer::after {
-  content: "";
-  background-image: url("Assets/volunteerPic.jpg");
-  width: 100%;
-  opacity: 0.25;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: -1;
-}
+    .sectionAlt {
+        z-index: 0;
+        height: 80vh;
+    }
 
-.pageHeadDonate::after {
-  content: "";
-  background-image: url("Assets/donatePic.jpg");
-  width: 100%;
-  opacity: 0.3;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: -1;
-}
+    .sectionAlt > img {
+        width: 100%;
+        height: 80vh;
+        opacity: 0.3;
+        position: relative;
+    }
 
-.pageHeadContact::after {
-  content: "";
-  background-image: url("Assets/contactPic.jpg");
-  width: 100%;
-  opacity: 0.4;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  z-index: -1;
+    .titleAlt {
+        font-size: 80px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #009dab;
+    }
+
+    .sectionAlt > h6 {
+        font-size: 16px;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #009dab;
+    }
 }
 
 
