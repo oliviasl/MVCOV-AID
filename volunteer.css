@@ -139,12 +139,12 @@ html {
 
     .sectionAlt {
         z-index: 0;
-        height: 90vh;
+        height: 80vh;
     }
 
     .sectionAlt > img {
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         opacity: 0.3;
         position: relative;
     }

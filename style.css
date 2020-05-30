@@ -122,7 +122,7 @@ section {
         font-size: 60px;
         font-weight: bolder;
         position: absolute;
-        top: 57%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -177,7 +177,7 @@ section {
         font-size: 35px;
         font-weight: bolder;
         position: absolute;
-        top: 57%;
+        top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
